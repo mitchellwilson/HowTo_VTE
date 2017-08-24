@@ -52,7 +52,7 @@ void ACountdown::AdvanceTimer()
 	}
 }
 
-void ACountdown::CountdownHasFinished()
+void ACountdown::CountdownHasFinished_Implementation()
 {
 	//Change to a special readout
 	CountdownText->SetText(TEXT("GO!"));
